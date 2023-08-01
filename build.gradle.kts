@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "us.timinc.mc.cobblemon.wildhiddenabilities"
-version = "0.0.0"
+version = "1.0.0"
 
 architectury {
     platformSetupLoomIde()
