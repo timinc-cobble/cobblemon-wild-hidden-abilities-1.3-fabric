@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon-wildhiddenabilities",
+  "version": "1.0.0",
+  "name": "Wild Hidden Abilities",
+  "description": "Adds a chance for wild spawned Pokemon to have their hidden ability.",
+  "authors": [
+    "Timothy Metcalfe aka TimInc"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "us.timinc.mc.cobblemon.wildhiddenabilities.WildHiddenAbilities"
+      }
+    ]
+  },
+  "mixins": [
+    "wildhiddenabilities.mixins.json"
+  ],
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.19.2",
+    "fabricloader": ">=0.13.3",
+    "fabric-language-kotlin": ">=1.9.3+kotlin.1.8.20",
+    "fabric": "*",
+    "architectury": ">=6.0.37",
+    "cobblemon": ">=1.2.0"
+  }
+}
