@@ -28,7 +28,7 @@ object WildHiddenAbilities : ModInitializer {
     fun addHiddenAbilityChance(
         entity: PokemonEntity
     ) {
-        val cachedConfig = config ?: return
+        val cachedConfig = config
 
         val pokemon = entity.pokemon
 
